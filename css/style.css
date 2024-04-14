@@ -1,0 +1,48 @@
+html,body{
+  height:100%;
+  width: 100%;
+}
+.container{
+  height:100%;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  background-color: #555555;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  padding:20px;
+
+  flex-grow: 1;
+}
+.img-holder{
+  height:70%;
+  flex-grow: 8;
+  display: flex;
+  align-content:flex-start ;
+  overflow: auto;
+  flex-wrap: wrap;
+
+}
+.img-holder img{
+  flex:250px;
+  margin-top: 5px;
+  margin-left: 5px;
+  max-height: 45%;
+  width: auto;
+  object-fit: cover;
+}
+
+@media(max-width: 800px){
+.img-holder{
+
+
+}
+
+
+
+}
+
